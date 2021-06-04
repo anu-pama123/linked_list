@@ -16,7 +16,6 @@ public class NodeTest
         Node node3 = new Node();
         node3.data = 3;
         node2.next = node3;
-        Integer node = null;
         boolean status = node1.next.equals(node2) && node2.next.equals(node3);
         Assert.assertTrue(status);
     }

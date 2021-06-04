@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-04T15:11:59" hostname="aswin-laptop" time="0.01">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-04T19:37:42" hostname="aswin-laptop" time="0.005">
   <properties/>
-  <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.004"/>
+  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.0"/>
+  <system-out><![CDATA[56
+36
+70
+-----------
+56
+30
+70
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
