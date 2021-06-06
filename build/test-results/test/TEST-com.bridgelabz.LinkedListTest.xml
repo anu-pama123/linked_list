@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-06T14:42:01" hostname="aswin-laptop" time="0.008">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-06T14:47:26" hostname="aswin-laptop" time="0.009">
   <properties/>
-  <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.006"/>
-  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
+  <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.005"/>
+  <testcase name="givenValueShouldAddAtMiddle" classname="com.bridgelabz.LinkedListTest" time="0.0"/>
+  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.0"/>
   <testcase name="givenFirstValuesShouldAddInOrder" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
   <system-out><![CDATA[56
 36
 70
 ----values added in linked list-------
+56
+30
+70
+---- at middle-------
 56
 30
 70

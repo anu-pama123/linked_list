@@ -41,4 +41,16 @@ public class LinkedListTest
         System.out.println("----vales added in order-------");
         Assert.assertEquals(3, size);
     }
+    @Test
+    public void givenValueShouldAddAtMiddle()
+    {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.addInOrder(56);
+        linkedList.addInOrder(70);
+        linkedList.addAtMiddle(30, 56, 70);
+        int size=linkedList.size();
+        linkedList.printValue();
+        System.out.println("----given value at middle-------");
+        Assert.assertEquals(3, size);
+    }
 }

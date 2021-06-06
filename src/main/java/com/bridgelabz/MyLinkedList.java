@@ -4,7 +4,6 @@ public class MyLinkedList
 {
     private Node head;
     int size = 0;
-
     public boolean add(Integer data)
     {
         Node newNode = new Node(data);
@@ -27,7 +26,6 @@ public class MyLinkedList
     {
         return size;
     }
-
     public boolean addAtFirst(Integer data)
     {
         Node newNode = new Node(data);
@@ -53,6 +51,27 @@ public class MyLinkedList
         tempNode.next=newNode;
         size++;
         return true;
+    }
+    public boolean addAtMiddle(Integer data, Integer value1, Integer value2)
+    {
+        Node newNode = new Node(data);
+        Node tempNode = head;
+        while (tempNode.next != null && tempNode.data != value1)
+        {
+            tempNode = tempNode.next;
+            System.out.println(tempNode.data);
+        }
+        if(tempNode.data == value1)
+        {
+            if(tempNode.next.data == value2)
+            {
+                newNode.next = tempNode.next;
+                tempNode.next=newNode;
+                size++;
+                return true;
+            }
+        }
+        return false;
     }
     public void printValue()
     {
