@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-06T15:07:38" hostname="aswin-laptop" time="0.011">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-06T16:15:55" hostname="aswin-laptop" time="0.011">
   <properties/>
   <testcase name="givenValueShouldPopElement" classname="com.bridgelabz.LinkedListTest" time="0.004"/>
   <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
   <testcase name="givenValueShouldAddAtMiddle" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.0"/>
-  <testcase name="givenFirstValuesShouldAddInOrder" classname="com.bridgelabz.LinkedListTest" time="0.0"/>
+  <testcase name="givenLastValueShouldPopElement" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
+  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
+  <testcase name="givenFirstValuesShouldAddInOrder" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
   <system-out><![CDATA[36
 70
 --------After pop--------
@@ -17,6 +18,9 @@
 30
 70
 ----given value at middle-------
+56
+36
+--------After pop--------
 56
 30
 70

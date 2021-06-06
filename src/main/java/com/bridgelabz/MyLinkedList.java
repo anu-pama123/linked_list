@@ -73,11 +73,29 @@ public class MyLinkedList
         }
         return false;
     }
-    public Integer pop()
+    public Integer popFirst()
     {
         Integer first = head.data;
         head = head.next;
         return first;
+    }
+    public Integer popLast(Integer data)
+    {
+        if (head == null)
+        {
+            return 0;
+        }
+        Node tempNode=head;
+        Node tempNode1=tempNode;
+        while (tempNode.next != null)
+        {
+            tempNode1=tempNode;
+            tempNode = tempNode.next;
+        }
+        size--;
+        tempNode1.next = null;
+        Integer last = tempNode.data;
+        return last;
     }
     public void printValue()
     {

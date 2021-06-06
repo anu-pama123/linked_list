@@ -60,10 +60,21 @@ public class LinkedListTest
         linkedList.add(56);
         linkedList.add(36);
         linkedList.add(70);
-        int first = linkedList.pop();
+        int first = linkedList.popFirst();
         linkedList.printValue();
         System.out.println("--------After pop--------");
         Assert.assertEquals(56, first);
     }
-
+    @Test
+    public void givenLastValueShouldPopElement()
+    {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.add(56);
+        linkedList.add(36);
+        linkedList.add(70);
+        int last = linkedList.popLast(70);
+        linkedList.printValue();
+        System.out.println("--------After pop--------");
+        Assert.assertEquals(70, last);
+    }
 }
