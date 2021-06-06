@@ -14,7 +14,7 @@ public class LinkedListTest
         linkedList.add(70);
         int size=linkedList.size();
         linkedList.printValue();
-        System.out.println("-----------");
+        System.out.println("----values added in linked list-------");
         Assert.assertEquals(3, size);
     }
     @Test
@@ -26,6 +26,19 @@ public class LinkedListTest
         linkedList.addAtFirst(56);
         int size=linkedList.size();
         linkedList.printValue();
+        System.out.println("----given value at first-------");
+        Assert.assertEquals(3, size);
+    }
+    @Test
+    public void givenFirstValuesShouldAddInOrder()
+    {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.addInOrder(56);
+        linkedList.addInOrder(30);
+        linkedList.addInOrder(70);
+        int size=linkedList.size();
+        linkedList.printValue();
+        System.out.println("----vales added in order-------");
         Assert.assertEquals(3, size);
     }
 }
