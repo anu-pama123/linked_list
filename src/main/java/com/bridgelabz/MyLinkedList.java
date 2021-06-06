@@ -73,6 +73,12 @@ public class MyLinkedList
         }
         return false;
     }
+    public Integer pop()
+    {
+        Integer first = head.data;
+        head = head.next;
+        return first;
+    }
     public void printValue()
     {
         Node tempNode = head;

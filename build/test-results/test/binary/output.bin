@@ -1,16 +1,19 @@
-56
 36
 70
-'----values added in linked list-------
+--------After pop--------
 56
-30
+36
 70
----- at middle-------
+'----values added in linked list-------
 56
 30
 70
- ----given value at first-------
+!----given value at middle-------
 56
 30
 70
- ----vales added in order-------
+ ----given value at first-------
+56
+30
+70
+ ----vales added in order-------

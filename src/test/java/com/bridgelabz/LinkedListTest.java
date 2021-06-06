@@ -53,4 +53,17 @@ public class LinkedListTest
         System.out.println("----given value at middle-------");
         Assert.assertEquals(3, size);
     }
+    @Test
+    public void givenValueShouldPopElement()
+    {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.add(56);
+        linkedList.add(36);
+        linkedList.add(70);
+        int first = linkedList.pop();
+        linkedList.printValue();
+        System.out.println("--------After pop--------");
+        Assert.assertEquals(56, first);
+    }
+
 }
