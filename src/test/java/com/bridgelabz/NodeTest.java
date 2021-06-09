@@ -6,8 +6,7 @@ import org.junit.Assert;
 public class NodeTest
 {
     @Test
-    public void given3Node_shouldAddAtNextOfEachNode()
-    {
+    public void given3Node_shouldAddAtNextOfEachNode() {
         Node node1 = new Node();
         node1.data = 1;
         Node node2 = new Node();

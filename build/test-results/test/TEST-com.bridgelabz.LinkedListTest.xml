@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-06T16:15:55" hostname="aswin-laptop" time="0.011">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T15:19:04" hostname="aswin-laptop" time="0.005">
   <properties/>
-  <testcase name="givenValueShouldPopElement" classname="com.bridgelabz.LinkedListTest" time="0.004"/>
-  <testcase name="givenValueShouldAddInLinkedList" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <testcase name="givenValueShouldAddAtMiddle" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <testcase name="givenLastValueShouldPopElement" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <testcase name="givenValueShouldAddAtFirst" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <testcase name="givenFirstValuesShouldAddInOrder" classname="com.bridgelabz.LinkedListTest" time="0.001"/>
-  <system-out><![CDATA[36
-70
---------After pop--------
-56
-36
-70
-----values added in linked list-------
-56
+  <testcase name="givenValue_ShouldSearchInTheList" classname="com.bridgelabz.LinkedListTest" time="0.005"/>
+  <system-out><![CDATA[56
 30
 70
-----given value at middle-------
-56
-36
---------After pop--------
-56
-30
-70
-----given value at first-------
-56
-30
-70
-----vales added in order-------
+--------After search--------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
