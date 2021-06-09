@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T15:19:04" hostname="aswin-laptop" time="0.005">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T18:39:57" hostname="aswin-laptop" time="0.006">
   <properties/>
-  <testcase name="givenValue_ShouldSearchInTheList" classname="com.bridgelabz.LinkedListTest" time="0.005"/>
+  <testcase name="givenValue_ShouldAddInTheList" classname="com.bridgelabz.LinkedListTest" time="0.006"/>
   <system-out><![CDATA[56
 30
+40
 70
---------After search--------
+--------After inserting--------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

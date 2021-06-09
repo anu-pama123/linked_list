@@ -104,6 +104,21 @@ public class MyLinkedList
         return result;
     }
 
+    public boolean insert(int insertValue, int value1) {
+        Node newNode = new Node(insertValue);
+        Node tempNode = head;
+        while (tempNode != null && tempNode.data != value1) {
+            tempNode = tempNode.next;
+        }
+        if(tempNode.data == value1){
+            newNode.next = tempNode.next;
+            tempNode.next = newNode;
+            size++;
+            return true;
+        }
+        return false;
+    }
+
     public void printValue() {
         Node tempNode = head;
         if (tempNode == null) {
@@ -118,7 +133,6 @@ public class MyLinkedList
         }
     }
 }
-
 
 
 

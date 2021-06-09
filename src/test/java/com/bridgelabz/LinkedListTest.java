@@ -88,4 +88,17 @@ public class LinkedListTest
         System.out.println("--------After search--------");
         Assert.assertEquals(true, searchvalue );
     }
+
+    @Test
+    public void givenValue_ShouldAddInTheList() {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.add(56);
+        linkedList.add(30);
+        linkedList.add(70);
+        linkedList.insert(40, 30);
+        int size=linkedList.size();
+        linkedList.printValue();
+        System.out.println("--------After inserting--------");
+        Assert.assertEquals(4, size);
+    }
 }
