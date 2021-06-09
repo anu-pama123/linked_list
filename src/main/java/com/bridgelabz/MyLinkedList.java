@@ -119,6 +119,23 @@ public class MyLinkedList
         return false;
     }
 
+    public int popPos(int pos){
+        Node tempNode = head;
+        Node tempNde1=head;
+        int counter=1;
+        while (tempNode != null &&  counter <= pos) {
+            tempNde1=tempNode;
+            tempNode = tempNode.next;
+            counter++;
+        }
+        if(counter==pos+1){
+            tempNde1.next= tempNde1.next;
+            size--;
+            return size;
+        }
+        return size;
+    }
+
     public void printValue() {
         Node tempNode = head;
         if (tempNode == null) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T18:39:57" hostname="aswin-laptop" time="0.006">
+<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T19:21:30" hostname="aswin-laptop" time="0.005">
   <properties/>
-  <testcase name="givenValue_ShouldAddInTheList" classname="com.bridgelabz.LinkedListTest" time="0.006"/>
+  <testcase name="givenValue_ShouldDeleteFromTheList" classname="com.bridgelabz.LinkedListTest" time="0.005"/>
   <system-out><![CDATA[56
 30
 40

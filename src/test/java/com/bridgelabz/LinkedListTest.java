@@ -101,4 +101,18 @@ public class LinkedListTest
         System.out.println("--------After inserting--------");
         Assert.assertEquals(4, size);
     }
+
+    @Test
+    public void givenValue_ShouldDeleteFromTheList() {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.add(56);
+        linkedList.add(30);
+        linkedList.add(40);
+        linkedList.add(70);
+        linkedList.popPos(3);
+        int size=linkedList.size();
+        linkedList.printValue();
+        System.out.println("--------After inserting--------");
+        Assert.assertEquals(3, size);
+    }
 }
