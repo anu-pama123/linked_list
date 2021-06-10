@@ -98,7 +98,7 @@ public class LinkedListTest
         linkedList.insert(40, 30);
         int size=linkedList.size();
         linkedList.printValue();
-        System.out.println("--------After inserting--------");
+        System.out.println("--------After adding value--------");
         Assert.assertEquals(4, size);
     }
 
@@ -112,7 +112,20 @@ public class LinkedListTest
         linkedList.popPos(3);
         int size=linkedList.size();
         linkedList.printValue();
-        System.out.println("--------After inserting--------");
+        System.out.println("--------After deleting--------");
         Assert.assertEquals(3, size);
+    }
+
+    @Test
+    public void create_AscendingOrder_LinkedList() {
+        MyLinkedList linkedList = new MyLinkedList();
+        linkedList.addAscendingOrder(56);
+        linkedList.addAscendingOrder(70);
+        linkedList.addAscendingOrder(40);
+        linkedList.addAscendingOrder(30);
+        int size=linkedList.size();
+        linkedList.printValue();
+        System.out.println("--------In ascending order--------");
+        Assert.assertEquals(4, size);
     }
 }
